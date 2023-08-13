@@ -9,8 +9,6 @@ from PIL import Image, ImageDraw
 # sets up the window
 root = tk.Tk()
 root.title("Digit recognition")
-root.geometry("1400x410")
-root.resizable(width=False, height=False)
 
 params_outer_frame = tk.Frame(root)
 params_outer_frame.grid(row=0, column=0)
